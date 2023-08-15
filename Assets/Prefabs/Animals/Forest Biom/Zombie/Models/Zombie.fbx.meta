@@ -21,7 +21,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -29,7 +30,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -87,7 +88,47 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Zombie(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: Zombie(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000030908623, y: 0.7071068, z: -0.7071067, w: -0.000000030908616}
+      scale: {x: -15.238563, y: -29.938734, z: -60.145714}
+    - name: "\u041F\u0443\u0441\u0442\u044B\u0448\u043A\u0430"
+      parentName: Zombie(Clone)
+      position: {x: -0, y: 0, z: -1.6503783}
+      rotation: {x: 0.000000015454313, y: -0.70710677, z: 0.000000015454312, w: 0.7071068}
+      scale: {x: 100, y: 100, z: 100}
+    - name: "\u041F\u0443\u0441\u0442\u044B\u0448\u043A\u0430.001"
+      parentName: Zombie(Clone)
+      position: {x: -0.44672856, y: 0, z: 0}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Cube.001
+      parentName: Zombie(Clone)
+      position: {x: -0, y: 0.5972306, z: 0}
+      rotation: {x: 0.000000030908623, y: 0.7071068, z: -0.7071067, w: -0.000000030908616}
+      scale: {x: -30.052658, y: -29.938734, z: -60.145714}
+    - name: Cube.002
+      parentName: Zombie(Clone)
+      position: {x: -0, y: 0.5857419, z: -0.84421307}
+      rotation: {x: -5.6830016e-11, y: 0.99999917, z: 0.0013001178, w: 0.000000043711353}
+      scale: {x: -15.238563, y: -29.938734, z: -60.14571}
+    - name: "\u041A\u0443\u0431"
+      parentName: Zombie(Clone)
+      position: {x: -3.683665e-18, y: -0.46169478, z: 0.17300434}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 14.02988, y: 17.794987, z: 17.794987}
+    - name: "\u041A\u0443\u0431.001"
+      parentName: Zombie(Clone)
+      position: {x: -3.683665e-18, y: -0.46169478, z: -0.13082086}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 14.02988, y: 17.794987, z: 17.794987}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -98,13 +139,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
