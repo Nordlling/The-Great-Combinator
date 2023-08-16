@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ead16738e0268ea4eb87728cc76b17b9, type: 3}
+  m_Name: Minecraft2
+  m_EditorClassIdentifier: 
+  _animals:
+  - {fileID: 2085226044499854005, guid: 4bed4f3841cf3f244a8175370e6d48c2, type: 3}
+  - {fileID: 7912420341984767569, guid: 2ce0e06a29bde7744a6a1703aca32dd2, type: 3}
+  - {fileID: -7728893845195823811, guid: d3480aacfe7484249bd48874443886c9, type: 3}
+  - {fileID: -68649738321637669, guid: 2532775d5aeb74248a943240ea6af1c8, type: 3}
+  - {fileID: 2832233097914990212, guid: 5f600156f20980f42a8ff6dc07804e32, type: 3}
