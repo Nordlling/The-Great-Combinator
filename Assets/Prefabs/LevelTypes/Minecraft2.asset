@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae08774bef41d7f4abedb58f6793c035, type: 3}
-  m_Name: Forest
+  m_Name: Minecraft2
   m_EditorClassIdentifier: 
   _set: {fileID: 11400000, guid: a4dfd0484f35ca241aa4922cd24f2ccb, type: 2}
   _enviroment: {fileID: 9221824796856695083, guid: 67ba1ff8873e0bd47a34def349050cd3,
