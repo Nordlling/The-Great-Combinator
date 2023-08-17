@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Minecraft1
   m_EditorClassIdentifier: 
   _animals:
-  - {fileID: 5809721588930396882, guid: 48514f429a0172a409bae4b022a6a997, type: 3}
-  - {fileID: 781030232081728736, guid: f6a1b278b439749beb080f753c28953a, type: 3}
-  - {fileID: 5556574223179742238, guid: f84ebc8c0a4464f98a202f2c0a1340dc, type: 3}
-  - {fileID: 544467810026989799, guid: 2e34ac8aa32d845e59fe45de5764f2ce, type: 3}
-  - {fileID: 7058566966343283371, guid: 01cb5261ed7ab5d49a8dc2bd0fd70bec, type: 3}
+  - {fileID: 2085226044499854005, guid: 4bed4f3841cf3f244a8175370e6d48c2, type: 3}
+  - {fileID: 7912420341984767569, guid: 2ce0e06a29bde7744a6a1703aca32dd2, type: 3}
+  - {fileID: -7728893845195823811, guid: d3480aacfe7484249bd48874443886c9, type: 3}
+  - {fileID: -68649738321637669, guid: 2532775d5aeb74248a943240ea6af1c8, type: 3}
+  - {fileID: 2832233097914990212, guid: 5f600156f20980f42a8ff6dc07804e32, type: 3}
